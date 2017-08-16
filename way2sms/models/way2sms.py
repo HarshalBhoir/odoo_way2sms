@@ -1,11 +1,13 @@
 
-##################################    TWILIO PYTHON   ###########################################
+
+##################################    way2sms PYTHON   ###########################################
 
 from odoo import models, fields, api, _
 from odoo.exceptions import Warning
 import datetime
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
+import re
 
 import urllib2
 import cookielib
@@ -17,16 +19,19 @@ from stat import *
 class way2smsBase(models.Model):
     _name = "way.base"
     _rec_name = "user_name"
-    user_name = fields.Char()
-    password = fields.Char()
+    
+    user_name = fields.Char(string="UserName", required=True)
+    password = fields.Char(string="Password", required=True)
     
 class way2sms(models.Model):
     _name = "way.way"
     
     message = fields.Text(String="Message", size=140)
-    number = fields.Text(string="Receiver Number", size=12)
-    user_acc = fields.Many2one("way.base",'ACC')
+    number = fields.Text(string="Receiver Number", required= True, size=12)
+    user_acc = fields.Many2one("way.base",'ACC', required= True)
     date_time = fields.Datetime(string="Date & Time",  readonly=True)
+    
+    
 
     def sendSms(self):
         url ='http://site24.way2sms.com/Login1.action?'
@@ -54,7 +59,15 @@ class way2sms(models.Model):
             raise Warning(_("Error pls Check account or mobile number"))
         #return()
         self.date_time = str(datetime.now())
+        raise Warning(_("Message Sent"))
         print "success"
     #return ()
 
-
+    @api.one
+    @api.constrains('number')
+    def validatePhonenumber(self):
+        for phone in self:
+            if re.match("[0-9]", phone.number) == None:
+                raise Warning("Mobile number is not valid one, Please specify valid number")
+                return False
+            return True
