@@ -1,0 +1,1 @@
+# odoo_way2sms
