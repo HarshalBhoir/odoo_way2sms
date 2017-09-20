@@ -2,11 +2,11 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
    
-.. image:: https://coveralls.io/repos/github/annaduraiVignesh/odoo_way2sms/badge.svg?branch=master
-   :target: https://coveralls.io/github/annaduraiVignesh/odoo_way2sms?branch=master
+.. image:: https://coveralls.io/repos/github/annaduraiVignesh/odoo_way2sms/badge.svg?branch=10.0
+   :target: https://coveralls.io/github/annaduraiVignesh/odoo_way2sms?branch=10.0
    
-.. image:: https://travis-ci.org/annaduraiVignesh/odoo_way2sms.svg?branch=master
-   :target: https://travis-ci.org/github/annaduraiVignesh/odoo_way2sms?branch=master
+.. image:: https://travis-ci.org/annaduraiVignesh/odoo_way2sms.svg?branch=10.0
+   :target: https://travis-ci.org/github/annaduraiVignesh/odoo_way2sms?branch=10.0
 
 
 ===========================
