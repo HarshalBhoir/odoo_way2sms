@@ -11,6 +11,8 @@
     'images': ['images/main_screenshot.png'],
     'depends': ['base'],
     'data': [
+        'security/security.xml',
+        'security/ir.model.access.csv',
          'views/way2sms_view.xml',
     ],
 }
