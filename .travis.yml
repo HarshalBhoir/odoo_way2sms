@@ -23,6 +23,10 @@ env:
   - TRANSIFEX="1"
   - TESTS="1" ODOO_REPO="odoo/odoo"
   - TESTS="1" ODOO_REPO="OCA/OCB"
+  fast_finish: true
+  allow_failures:
+  - python: 2.7
+  
 
 virtualenv:
   system_site_packages: true
