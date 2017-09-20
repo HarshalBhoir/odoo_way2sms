@@ -6,6 +6,7 @@
    :target: https://coveralls.io/github/annaduraiVignesh/odoo_way2sms?branch=master
    
 .. image:: https://travis-ci.org/annaduraiVignesh/odoo_way2sms.svg?branch=master
+   :target: https://travis-ci.org/github/annaduraiVignesh/odoo_way2sms?branch=master
 
 
 ===========================
