@@ -6,4 +6,16 @@
    :target: https://coveralls.io/github/annaduraiVignesh/odoo_way2sms?branch=master
 
 
-# odoo_way2sms
+===========================
+Way2sms SMS Integration 2017
+===========================
+
+* Way2SMS ODOO Integration. 
+
+* Provide Registered account of Way2sms user name and password. register for account in way2sms site. Tested with Indian version.
+
+Contributors
+-------------
+
+* viki <anna2durai@gmail.com>
+* Annadurai <annaduraidm@gmail.com>
