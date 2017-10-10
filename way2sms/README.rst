@@ -12,9 +12,9 @@
    :target: https://codebeat.co/projects/github-com-annaduraivignesh-odoo_way2sms-10-0
    
 
-===========================
-Way2sms SMS Integration 2017
-===========================
+================================
+Way2sms SMS Integration 2017 தமிழ்
+================================
 
 * Way2SMS ODOO Integration. 
 
