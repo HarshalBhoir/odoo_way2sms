@@ -13,6 +13,7 @@
     'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
-         'views/way2sms_view.xml',
+        'views/way2sms_view.xml',
+        'views/way2sms_base_view.xml',
     ],
 }
