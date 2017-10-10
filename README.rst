@@ -12,13 +12,14 @@
    :target: https://codebeat.co/projects/github-com-annaduraivignesh-odoo_way2sms-10-0
    
 
-===========================
-Way2sms SMS Integration 2017
-===========================
+================================
+Way2sms SMS Integration 2017 தமிழ்
+================================
 
 * Way2SMS ODOO Integration. 
 
 * Provide Registered account of Way2sms user name and password. register for account in way2sms site. Tested with Indian version.
+* Internet disconnection bug solved in latest commit.
 
 Contributors
 -------------
